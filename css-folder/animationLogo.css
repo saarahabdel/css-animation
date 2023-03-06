@@ -43,23 +43,21 @@ img {
 }
 
 
-@keyframes animated-image {
-    0% {color: blueviolet;}
-    25% {color: #800080}
-    50% {color: #8B008B}
-    100% {color: #4B0076}
+@keyframes divcolor {
+    0% {background-color: purple; }
+    50% {background-color: #8B008B; border-radius: 100%;}
+    100% {background-color: #4B0076;}
 }
 
 div {
-   
     height: 50px;
     width: 50px;
-    animation-name: animated-image;
-    animation-duration: 4s;
+    background-color: black;
+    animation-name: divcolor;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
-
-    position: relative;
-    top: 500px;
-
+    animation-timing-function: ease-in;
+    animation-direction: alternate; 
 }
+
 
