@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    border-top-color:blueviolet;
+    border-top-width: 200px;
+    border-top-style: solid;
+
+    border-bottom-color:blueviolet;
+    border-bottom-width: 200px;
+    border-bottom-style: solid;
+
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+img {
+    position: absolute;
+    box-sizing:border-box;
+    display: circle;
+    border-radius: 50%;
+    width: 250px;
+    height: 260px;
+    right: 380px; /*moves image left of page */
+    top: 50px;
+    padding: 0;
+}
+
+.name-position {
+    position: absolute;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    right: 350px;
+    top: 310px;
+}
+
+.main-position {
+}
+
+
